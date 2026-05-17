@@ -52,10 +52,6 @@ export const addProduct = asyncHandler(async (req, res, next) => {
 export const productList = asyncHandler(async (req, res, next) => {
   const products = await Product.find({});
 
-  if (!products) {
-    return next(new CustomError(404, "Not found any product"));
-  }
-
   res.status(200).json({
     success: true,
     message: "All products fetched successfully",

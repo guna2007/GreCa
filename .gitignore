@@ -1,17 +1,18 @@
 # === Node Modules ===
-client/node_modules/
-server/node_modules/
+node_modules/
+frontend/node_modules/
+backend/node_modules/
 
 # === Environment Variables ===
-client/.env
-client/.env.*     # For .env.local, .env.production etc. (Vite-specific)
-server/.env
+frontend/.env
+frontend/.env.*     # For .env.local, .env.production etc. (Vite-specific)
+backend/.env
 
 # === Build Output ===
-client/dist/      # Vite build output
-server/dist/
-server/build/
-client/build/
+frontend/dist/      # Vite build output
+backend/dist/
+backend/build/
+frontend/build/
 
 # === Logs ===
 *.log
