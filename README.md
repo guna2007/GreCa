@@ -17,6 +17,11 @@ Short end-to-end workflow:
 - Authenticated users update cart and place COD or Stripe checkout orders.
 - Backend validates requests, writes to MongoDB, uploads images to Cloudinary, and handles Stripe webhook events.
 
+# Live Demo
+
+- **Frontend:** https://greencart-8d9l.onrender.com
+- **Backend API:** https://greencart-backend-9axs.onrender.com
+
 # Key Features
 
 - User registration and login
@@ -179,7 +184,7 @@ Data flow:
 
 Complete flow
 
-User Journey:
+**Customer Journey:**
 
 Home
 ↓
@@ -189,7 +194,7 @@ Product Details
 ↓
 Cart
 ↓
-Address
+Add Address
 ↓
 Checkout
 ↓
@@ -197,7 +202,7 @@ Payment
 ↓
 Order History
 
-Seller/Admin Journey:
+**Seller/Vendor Journey:**
 
 Seller Login
 ↓
@@ -205,9 +210,9 @@ Dashboard
 ↓
 Add Product
 ↓
-Manage Products
+Manage Products (List / Update Stock / Delete)
 ↓
-Manage Orders
+Manage Orders (View / Update Status / Delete)
 
 Page details
 
